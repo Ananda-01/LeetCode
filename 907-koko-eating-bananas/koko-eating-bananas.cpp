@@ -12,6 +12,7 @@ public:
 
             for(int bananas:piles)
             {
+                // (bananas + mid - 1) / mid is a mathematical trick for ceiling division without using floating-point numbers
                 totalhours=totalhours + (bananas+mid-1)/mid;
             }
 
